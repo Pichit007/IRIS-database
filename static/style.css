@@ -1,0 +1,109 @@
+body {
+  /* background-color: #fe0808; */
+  font-family: "Kanit";
+}
+
+input[type=text],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #aaebff;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.form {
+  border-radius: 5px;
+  background-color: #09fcbf;
+  padding: 20px;
+}
+
+div .submit{
+  font-weight: 500;
+  transition: all 0.60s;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #f42c2c;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 25px;
+}
+
+span.thick1 {
+  font-weight: bold;
+  color: #76885B;
+  font-size: 2.5em;
+}
+
+span.thick2 {
+  font-weight: bold;
+  color: #627254;
+  font-size: 2.5em;
+}
+
+
+div nav {
+  width: 30%;
+  margin: 0 auto;
+  font-weight: 400;
+}
+
+div nav a {
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #fcfdfb;
+}
+
+div nav a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul li{
+  display: inline;
+}
+
+form .submit:hover {
+  background-color: #fd08c8;
+  box-shadow: 0 0.5em 0.5em -0.3em #f87aee;
+  transform: translateY(-0.25em);
+  cursor: pointer;
+}
+
+table {
+  font-size: 1.3rem;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 0 0.7em 0.7em -0.3em #03ddf99f;
+}
+
+thead tr {
+  background-color: #0473ab;
+  color: white;
+}
+
+tbody tr:nth-of-type(2n+1) {
+  background-color: #f8edb8;
+}
+
+tbody tr:nth-of-type(2n) {
+  background-color: #11f68b9f;
+}
+
+table, th, td {
+  border: 1px solid black; 
+}
